@@ -106,4 +106,4 @@ if __name__ == "__main__":
         # Run the monitoring in an asyncio event loop
         asyncio.run(monitor_health(file_path))
     except KeyboardInterrupt:
-        print("Monitoring stopped manually")
+        pass
