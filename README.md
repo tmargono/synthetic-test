@@ -19,7 +19,7 @@ git clone https://github.com/tmargono/synthetic-test.git or git clone git@github
 cd synthetic-test
 ```
 
-2. If needed, install Python 3: https://www.python.org/downloads/
+2. If needed, install Python 3 (latest version should be fine): https://www.python.org/downloads/
 
 3. Install Dependencies
 
