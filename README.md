@@ -1,4 +1,4 @@
-# Endpoint Health Monitor
+# Synthetic Test
 
 This Python script monitors the health of endpoints by making asynchronous requests and tracking their availability over time.
 
