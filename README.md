@@ -19,13 +19,15 @@ git clone https://github.com/tmargono/synthetic-test.git or git clone git@github
 cd synthetic-test
 ```
 
-2. Install Dependencies
+2. If needed, install Python: https://www.python.org/downloads/
+
+3. Install Dependencies
 
 ```
 pip3 install aiohttp pyyaml pandas
 ```
 
-3. Prepare the Endpoints Configuration File
+4. Prepare the Endpoints Configuration File
 
 Create a YAML file (such as endpoints.yaml) with the endpoints to monitor. Example:
 
@@ -37,7 +39,7 @@ Create a YAML file (such as endpoints.yaml) with the endpoints to monitor. Examp
 
 See `endpoints.yaml` for an example.
 
-4. Run the Script
+5. Run the Script
 
 ```
 python3 monitor.py endpoints.yaml
