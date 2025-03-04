@@ -1,0 +1,19 @@
+- headers:
+    user-agent: synthetic-monitor
+  method: GET
+  name: wikipedia
+  url: https://www.wikipedia.org/
+- headers:
+    user-agent: synthetic-monitor
+  method: GET
+  name: httpbin 200 endpoint
+  url: https://httpbin.org/status/200
+- body: '{"foo":"bar"}'
+  headers:
+    content-type: application/json
+    user-agent: synthetic-monitor
+  method: POST
+  name: httpbin post endpoint
+  url: https://httpbin.org/post
+- name: httpbin flaky endpoint
+  url: https://httpbin.org/status/200,400
